@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello menu React App and repository in github!</Text>
+      <Text>Menu react app verifying changes!</Text>
       <StatusBar style="auto" />
     </View>
   );
