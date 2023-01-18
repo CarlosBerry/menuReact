@@ -6,7 +6,8 @@ import CategorieGridTile from "../components/CategorieGridTile";
 function CategorieScreen({navigation}){
     function renderCategoryItem(itemData){
          function pressHandler(){
-        navigation.navigate("Meals_Screen");
+        navigation.navigate("Meals_Screen",{
+            categoryTitle: itemData.item.id});
     };
 
     
