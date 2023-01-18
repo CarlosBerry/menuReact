@@ -11,10 +11,7 @@ function MealsScreen({route}){
 
     function renderMealItem(itemData){
         return <MealItem title={itemData.item.title}/>
-
-                
-
-    }
+                };
 
     return(<View style={styles.container}>
        
